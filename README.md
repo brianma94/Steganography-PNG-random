@@ -1,6 +1,19 @@
 # Steganography-PNG-random
 LSB-replacement algorithm with pseudo-random allocation
 
+# Usage
+To encode a message: 
+
+    python steganography.py [original image] [text file]
+
+    Example: python steganography.py original-image.png message.txt
+    
+To decode the message: 
+
+    python steganography.py --decode [modified image]
+
+    Example: python steganography.py --decode modified.png
+    
 The pixels are modified with a pseudo-random allocation using a combination of 3 pseudo-random values of 3, 2, and 3 bits respectively. The distance (jump) between two modified pixels is calculated as follows and the LSB-replacement are as follow:
 
 ![alt text](https://github.com/brianma94/Steganography-PNG-random/blob/master/step1.png)
