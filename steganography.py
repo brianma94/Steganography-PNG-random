@@ -141,7 +141,7 @@ if len(sys.argv) >= 2:
 			print "Usage: To encode a message: steganography.py [original image] [text file]"
 			print "		Example: python steganography.py original-image.png message.txt"
 			print "Usage: To decode the message: steganography.py --decode [modified image]"
-			print "		Ejemplo: python steganography.py --decode modified.png"
+			print "		Example: python steganography.py --decode modified.png"
 		else:
 			print "The input is not correct. Use the option --h to see the available options."
 	elif sys.argv[1] != "--h" and sys.argv[1] != "--decode":
