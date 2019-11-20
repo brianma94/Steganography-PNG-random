@@ -33,6 +33,7 @@ To avoid hiding the data always from the first pixel, the algorithm applies the 
 The necessary space needed to hide the data is:
 
 N = Length of the message
+
 J = Calculated jump value for eah modified pixel
 - General case:
 
