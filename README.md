@@ -16,8 +16,11 @@ The necessary space needed to hide the data is:
 N = Length of the message
 J = Calculated jump value for eah modified pixel
 - General case:
-![alt text]((https://github.com/brianma94/Steganography-PNG-random/blob/master/formula_general.png)
+
+<img src="https://github.com/brianma94/Steganography-PNG-random/blob/master/formula_general.png" alt="alt text" width="300px" height="100px">
+
 - Worst case (all the jumps have a distance of 255):
-(https://github.com/brianma94/Steganography-PNG-random/blob/master/formula_worstcase.png)
+
+<img src="https://github.com/brianma94/Steganography-PNG-random/blob/master/formula_worstcase.png" alt="alt text" width="300px" height="100px">
 
 To avoid the vulnerability of pathfinding with single colour images, all the pixels of the image will be modified with the same technique. The pixels without hidden data will be ignored in the decoding process.
