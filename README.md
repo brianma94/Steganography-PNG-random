@@ -1,6 +1,12 @@
 # Steganography-PNG-random
 LSB-replacement algorithm with pseudo-random allocation
 
+# Dependencies
+
+Dependencies can be insalled using the requirements.txt file
+
+    pip install -r requirements.txt
+    
 # Usage
 To encode a message: 
 
