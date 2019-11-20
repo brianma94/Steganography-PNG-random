@@ -10,3 +10,5 @@ The necessary space needed to hide the data is:
 - General case:
 - Worst case (all the jumps have a distance of 255):
 
+
+To avoid the vulnerability of pathfinding with single colour images, all the pixels of the image will be modified with the same technique. The pixels without hidden data will be ignored in the decoding process.
